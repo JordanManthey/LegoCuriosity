@@ -8,7 +8,7 @@ public class Teleporter : MonoBehaviour
     //public GameObject TeleportMarker;
     public Transform Player;
     public float RayLength = 50f;
-    float indexTriggerState = 1f;
+    float indexTriggerState = 0f;
     public OVRInput.Controller controller;
 
     // Use this for initialization
