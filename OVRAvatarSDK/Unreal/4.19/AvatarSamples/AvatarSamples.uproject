@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F3302030-4C49-4DD8-8813-2283C3DDD8BF}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AvatarSamples",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"OnlineSubsystem",
+				"OnlineSubsystemUtils"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemOculus",
+			"Enabled": true
+		},
+		{
+			"Name": "OvrAvatar",
+			"Enabled": true
+		}
+	]
+}
